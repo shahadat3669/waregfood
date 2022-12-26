@@ -133,8 +133,80 @@ table {
 $light-gray-1: #f9f8f8;
 $light-gray-2: #a8a7a7;
 $dark-gray-1: #151010;
-$twine-1: #d9b5a5;
-$twine-2: #c39556;
-$twine-3: #5d3e32;
+$twine-1: #fdf2e9;
+$twine-2: #d9b5a5;
+$twine-3: #c39556;
+$twine-4: #5d3e32;
 $secondary: #c42914;
 $primary: #ef5814;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+// base styles
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: $light-gray-1;
+  overflow-x: hidden;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+.title-1,
+h2,
+.title-2,
+h3,
+.title-3,
+h4,
+h5 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: $dark-gray-1;
+}
+
+h1,
+.title-1 {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+h2,
+.title-2 {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+h3,
+.title-3 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+h4,
+.title-4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: $primary;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
