@@ -6,3 +6,6 @@ import './assets/profile-3.jpg';
 import './assets/profile-4.jpg';
 import './assets/profile-5.jpg';
 import './assets/profile-6.jpg';
+import './assets/hero.png';
+import './assets/hero.webp';
+import './assets/hero-min.png';
