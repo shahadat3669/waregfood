@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Waregfood</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
   </head>
   <body>
-    <h1>Waregfood</h1>
+    <!-- header  -->
+    <header class="header">
+      <a href="/" class="header__logo">
+        <img
+          class="header__logo-img"
+          alt="waregfood logo"
+          src="./assets/logo.png"
+        />
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#how">How it works</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#meals">Meals</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link header__nav-item-cta" href="#cta"
+              >Try for free</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="header__nav-btn">
+        <ion-icon class="header__nav-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="header__nav-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
   </body>
 </html>
