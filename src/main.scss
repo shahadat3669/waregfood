@@ -579,3 +579,59 @@ h4,
     width: 35%;
   }
 }
+
+// meals section
+.meals {
+  padding: 9.6rem 0;
+
+  &__item {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+
+    &:hover {
+      transform: translateY(-1.2rem);
+      box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+    }
+  }
+
+  &__item-content {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+
+  &__item-title {
+    font-size: 2.4rem;
+    color: $dark-gray-1;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+  }
+
+  &__item-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  &__item-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  &__item-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: $primary;
+  }
+
+  &__item-img {
+    width: 100%;
+  }
+
+  &__btn-container {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+}
