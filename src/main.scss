@@ -448,3 +448,57 @@ h4,
     opacity: 50%;
   }
 }
+
+// how works section
+.how-works {
+  padding: 9.6rem 0;
+
+  &__step-number {
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: $light-gray-2;
+    margin-bottom: 1.2rem;
+  }
+
+  &__step-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: $dark-gray-1;
+  }
+
+  &__step-image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &::before {
+      width: 60%;
+      padding-bottom: 60%;
+      background-color: $twine-1;
+      z-index: -2;
+    }
+
+    &::after {
+      width: 45%;
+      padding-bottom: 45%;
+      background-color: $twine-2;
+      z-index: -1;
+    }
+  }
+
+  &__step-image {
+    width: 35%;
+  }
+}
