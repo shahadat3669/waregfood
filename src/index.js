@@ -9,3 +9,8 @@ import './assets/profile-6.jpg';
 import './assets/hero.png';
 import './assets/hero.webp';
 import './assets/hero-min.png';
+import './assets/featured-1.png';
+import './assets/featured-2.png';
+import './assets/featured-3.png';
+import './assets/featured-4.png';
+import './assets/featured-5.png';
