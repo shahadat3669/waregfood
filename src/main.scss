@@ -333,6 +333,34 @@ h4,
   }
 }
 
+.tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+
+  & .tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: $dark-gray-1;
+    border-radius: 100px;
+    font-weight: 600;
+
+    &--vegetarian {
+      background-color: $vegetarian;
+    }
+
+    &--vegan {
+      background-color: $vegan;
+    }
+
+    &--paleo {
+      background-color: $paleo;
+    }
+  }
+}
+
 // header
 .header {
   display: flex;
