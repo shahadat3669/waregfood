@@ -17,3 +17,5 @@ import './assets/featured-5.png';
 import './assets/app-1.png';
 import './assets/app-2.png';
 import './assets/app-3.png';
+import './assets/meal-1.jpg';
+import './assets/meal-2.jpg';
