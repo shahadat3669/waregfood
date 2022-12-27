@@ -225,6 +225,42 @@ h4,
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 9.6rem;
+  }
+
+  &__cols {
+    &--2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &--3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &--4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    &--5 {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  &--vertical-center {
+    align-items: center;
+  }
+}
+
 // button styles
 .btn {
   display: inline-block;
