@@ -274,6 +274,21 @@ h4,
   text-align: center;
 }
 
+.link {
+  display: inline-block;
+  color: $primary;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+
+  &:hover,
+  &:active {
+    color: $twine-3;
+    border-bottom: 1px solid transparent;
+  }
+}
+
 // button styles
 .btn {
   display: inline-block;
@@ -475,7 +490,7 @@ h4,
     color: $dark-gray-1;
 
     & span {
-      color: #cf711f;
+      color: $primary;
       font-weight: 700;
     }
   }
