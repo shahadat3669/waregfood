@@ -312,6 +312,27 @@ h4,
   }
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  &__item {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    line-height: 1.2;
+  }
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    color: $primary;
+  }
+}
+
 // header
 .header {
   display: flex;
