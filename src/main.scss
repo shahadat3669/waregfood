@@ -727,4 +727,48 @@ h4,
       }
     }
   }
+
+  &__plan-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+  }
+
+  &__plan-name {
+    color: $primary;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75;
+    margin-bottom: 3.2rem;
+  }
+
+  &__plan-price {
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: $dark-gray-1;
+    margin-bottom: 1.6rem;
+
+    & span {
+      font-size: 3rem;
+      font-weight: 500;
+      margin-right: 0.8rem;
+    }
+  }
+
+  &__plan-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: $light-gray-2;
+  }
+
+  &__plan-sing-up {
+    text-align: center;
+    margin-top: 4.8rem;
+  }
+
+  &__plan-details {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+  }
 }
