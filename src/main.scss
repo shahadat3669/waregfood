@@ -669,4 +669,25 @@ h4,
     font-size: 1.6rem;
     color: $light-gray-2;
   }
+
+  &__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+  }
+
+  &__gallery-item {
+    overflow: hidden;
+  }
+
+  &__gallery-img {
+    display: block;
+    width: 100%;
+    transition: all 0.4s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }
