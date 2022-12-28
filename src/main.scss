@@ -635,3 +635,38 @@ h4,
     font-size: 1.8rem;
   }
 }
+
+.testimonials {
+  background-color: $twine-1;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+
+  &__inner {
+    padding: 9.6rem;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 8rem;
+  }
+
+  &__item-img {
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+  }
+
+  &__item-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+  }
+
+  &__item-name {
+    font-size: 1.6rem;
+    color: $light-gray-2;
+  }
+}
