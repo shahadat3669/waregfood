@@ -873,3 +873,74 @@ h4,
     background-position: center;
   }
 }
+
+// footer section
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid $twine-2;
+  &__inner {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  }
+  &__nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    &--logo {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__nav-heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+  }
+  &__nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  &__nav-contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  &__nav-address {
+    margin-bottom: 2.4rem;
+    color: $light-gray-2;
+  }
+  &__link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: $light-gray-2;
+    transition: all 0.3s;
+    &:hover {
+      color: $twine-2;
+    }
+  }
+  &__logo-link {
+    display: block;
+    margin-bottom: 3.2rem;
+  }
+  &__logo {
+    height: 2.2rem;
+  }
+  &__social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+  }
+  &__social-icon {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+  }
+  &__copyright {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: $light-gray-2;
+    margin-top: auto;
+  }
+}
