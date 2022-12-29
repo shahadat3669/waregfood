@@ -35,3 +35,4 @@ import './assets/testimonials-gallery-9.jpg';
 import './assets/testimonials-gallery-10.jpg';
 import './assets/testimonials-gallery-11.jpg';
 import './assets/testimonials-gallery-12.jpg';
+import './assets/eating.jpg';
