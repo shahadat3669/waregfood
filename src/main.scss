@@ -804,6 +804,10 @@ h4,
     grid-template-columns: 1fr 1fr;
     row-gap: 4.8rem;
     column-gap: 8rem;
+
+    @media (max-width: 34em) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__item-img {
@@ -835,6 +839,11 @@ h4,
 
     @media (max-width: 59em) {
       grid-template-columns: repeat(6, 1fr);
+    }
+
+    @media (max-width: 34em) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.2rem;
     }
   }
 
