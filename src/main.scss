@@ -987,10 +987,18 @@ h4,
     @media (max-width: 59em) {
       grid-template-columns: 3fr 2fr;
     }
+
+    @media (max-width: 34em) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__text-container {
     padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+    @media (max-width: 34em) {
+      padding: 3.2rem;
+    }
   }
 
   &__title {
@@ -1056,6 +1064,11 @@ h4,
       url('./assets/eating.jpg');
     background-size: cover;
     background-position: center;
+
+    @media (max-width: 34em) {
+      height: 32rem;
+      grid-row: 1;
+    }
   }
 }
 
