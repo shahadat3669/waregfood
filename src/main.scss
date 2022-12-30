@@ -998,6 +998,10 @@ h4,
 
   &__inner {
     grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+
+    @media (max-width: 44em) {
+      grid-template-columns: repeat(6, 1fr);
+    }
   }
 
   &__nav {
@@ -1006,9 +1010,27 @@ h4,
     flex-direction: column;
     gap: 2.4rem;
 
+    @media (max-width: 44em) {
+      grid-row: 1;
+      grid-column: span 2;
+      margin-bottom: 3.2rem;
+    }
+
     &--logo {
       display: flex;
       flex-direction: column;
+
+      @media (max-width: 44em) {
+        grid-column: span 3;
+        grid-row: 2;
+      }
+    }
+
+    &--address {
+      @media (max-width: 44em) {
+        grid-column: span 3;
+        grid-row: 2;
+      }
     }
   }
 
