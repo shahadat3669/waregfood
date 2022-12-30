@@ -261,6 +261,10 @@ h4,
     row-gap: 6.4rem;
   }
 
+  @media (max-width: 34em) {
+    row-gap: 4.8rem;
+  }
+
   &:last-child {
     margin-bottom: 0;
   }
@@ -272,6 +276,10 @@ h4,
   &__cols {
     &--2 {
       grid-template-columns: repeat(2, 1fr);
+
+      @media (max-width: 34em) {
+        grid-template-columns: 1fr;
+      }
     }
 
     &--3 {
@@ -280,6 +288,10 @@ h4,
       @media (max-width: 44em) {
         grid-template-columns: repeat(2, 1fr);
       }
+
+      @media (max-width: 34em) {
+        grid-template-columns: 1fr;
+      }
     }
 
     &--4 {
@@ -287,6 +299,10 @@ h4,
 
       @media (max-width: 44em) {
         grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (max-width: 34em) {
+        grid-template-columns: 1fr;
       }
     }
 
