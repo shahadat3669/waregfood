@@ -152,6 +152,10 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  @media (max-width: 75em) {
+    font-size: 56.25%;
+  }
 }
 
 body {
@@ -192,6 +196,10 @@ h2,
   font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
+
+  @media (max-width: 75em) {
+    font-size: 3.6rem;
+  }
 }
 
 h3,
@@ -199,6 +207,10 @@ h3,
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
+
+  @media (max-width: 75em) {
+    font-size: 2.4rem;
+  }
 }
 
 h4,
@@ -235,6 +247,11 @@ h4,
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+
+  @media (max-width: 75em) {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
 
   &:last-child {
     margin-bottom: 0;
@@ -383,6 +400,10 @@ h4,
   padding: 0 4.8rem;
   position: relative;
 
+  @media (max-width: 75em) {
+    padding: 0 3.2rem;
+  }
+
   &__logo-img {
     height: 2.2rem;
   }
@@ -392,6 +413,10 @@ h4,
     display: flex;
     align-items: center;
     gap: 4.8rem;
+
+    @media (max-width: 75em) {
+      gap: 3.2rem;
+    }
   }
 
   &__nav-link {
@@ -453,6 +478,10 @@ h4,
 
     @media (max-width: 84em) {
       max-width: 120rem;
+    }
+
+    @media (max-width: 75em) {
+      gap: 4.8rem;
     }
   }
 
@@ -646,6 +675,10 @@ h4,
 
   &__inner {
     padding: 9.6rem;
+
+    @media (max-width: 75em) {
+      padding: 9.6rem 3.2rem;
+    }
   }
 
   &__items {
