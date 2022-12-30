@@ -802,6 +802,9 @@ h4,
     border-radius: 11px;
     width: 75%;
 
+    @media (max-width: 44em) {
+      width: 100%;
+    }
     &--starter {
       justify-self: end;
       border: 2px solid $twine-1;
