@@ -666,6 +666,22 @@ h4,
     align-items: center;
     justify-content: center;
 
+    @media (max-width: 34em) {
+      transform: translateY(2.4rem);
+    }
+
+    &:nth-child(2) {
+      @media (max-width: 34em) {
+        grid-row: 1;
+      }
+    }
+
+    &:nth-child(6) {
+      @media (max-width: 34em) {
+        grid-row: 5;
+      }
+    }
+
     &::before,
     &::after {
       content: '';
