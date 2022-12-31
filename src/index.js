@@ -38,5 +38,7 @@ import './assets/testimonials-gallery-12.jpg';
 import './assets/eating.jpg';
 
 import navBar from './modules/navbar.js';
+import linksHelper from './modules/linksHelper.js';
 
 navBar();
+linksHelper();
