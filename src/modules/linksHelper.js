@@ -12,6 +12,11 @@ const linksHelper = () => {
           behavior: 'smooth',
         });
       }
+
+      if (href !== '#' && href.startsWith('#')) {
+        const sectionElement = document.querySelector(href);
+        sectionElement.scrollIntoView({ behavior: 'smooth' });
+      }
     });
   });
 };
