@@ -36,3 +36,11 @@ import './assets/testimonials-gallery-10.jpg';
 import './assets/testimonials-gallery-11.jpg';
 import './assets/testimonials-gallery-12.jpg';
 import './assets/eating.jpg';
+
+import navBar from './modules/navbar.js';
+import linksHelper from './modules/linksHelper.js';
+import stickyNav from './modules/stickyNav.js';
+
+navBar();
+linksHelper();
+stickyNav();
