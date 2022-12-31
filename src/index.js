@@ -1,4 +1,5 @@
 import './main.scss';
+import './assets/favicon.png';
 import './assets/logo.png';
 import './assets/profile-1.jpg';
 import './assets/profile-2.jpg';
