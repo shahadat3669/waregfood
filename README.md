@@ -78,7 +78,7 @@
 
 ## 👁 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://shahadat3669.github.io/leaderboard/dist/index.html)
+- [Live Demo Link](https://shahadat3669.github.io/waregfood/dist/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
