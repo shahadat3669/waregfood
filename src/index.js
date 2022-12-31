@@ -39,6 +39,8 @@ import './assets/eating.jpg';
 
 import navBar from './modules/navbar.js';
 import linksHelper from './modules/linksHelper.js';
+import stickyNav from './modules/stickyNav.js';
 
 navBar();
 linksHelper();
+stickyNav();
