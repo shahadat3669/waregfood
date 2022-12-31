@@ -1,4 +1,5 @@
 const allLinks = document.querySelectorAll('a:link');
+const header = document.querySelector('.header');
 
 const linksHelper = () => {
   allLinks.forEach((link) => {
@@ -16,6 +17,10 @@ const linksHelper = () => {
       if (href !== '#' && href.startsWith('#')) {
         const sectionElement = document.querySelector(href);
         sectionElement.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      if (link.classList.contains('header__nav-link')) {
+        header.classList.toggle('header--open');
       }
     });
   });
