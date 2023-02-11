@@ -2,10 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="icon"
+      href="./assets/favicon.png"
+      type="image/png"
+    />
+    <meta
+      name="title"
+      property="og:title"
+      content="Waregfood: A healthy meal delivered to your door, every single day"
+    />
+    <meta
+      name="description"
+      property="og:description"
+      content="This project is a food delivery app landing page. This pace showcases different views of the app and describes the company. I have implemented this landing page using HTML5, SCSS, and JavaScript. I use Git & GitHub for version control in this project. I followed GitFlow guidance for best practices. This project is fully responsive and is tested on different devices and browsers."
+    />
     <title>Waregfood</title>
-    <link rel="icon" href="./assets/favicon.png" type="image/png" />
+    <meta
+      name="author"
+      content="Shahadat Hossain"
+    />
+    <meta
+      name="image"
+      property="og:image"
+      content="./assets/cover.png"
+    />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
@@ -14,7 +43,6 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
-
     <script
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
@@ -23,7 +51,10 @@
   <body>
     <!-- header  -->
     <header class="header">
-      <a href="#" class="header__logo">
+      <a
+        href="#"
+        class="header__logo"
+      >
         <img
           class="header__logo-img"
           alt="waregfood logo"
@@ -33,27 +64,51 @@
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#how">How it works</a>
+            <a
+              class="header__nav-link"
+              href="#how"
+              >How it works</a
+            >
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#meals">Meals</a>
+            <a
+              class="header__nav-link"
+              href="#meals"
+              >Meals</a
+            >
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#testimonials">Testimonials</a>
+            <a
+              class="header__nav-link"
+              href="#testimonials"
+              >Testimonials</a
+            >
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#pricing">Pricing</a>
+            <a
+              class="header__nav-link"
+              href="#pricing"
+              >Pricing</a
+            >
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link header__nav-item-cta" href="#cta"
+            <a
+              class="header__nav-link header__nav-item-cta"
+              href="#cta"
               >Try for free</a
             >
           </li>
         </ul>
       </nav>
       <button class="header__nav-btn">
-        <ion-icon class="header__nav-icon" name="menu-outline"></ion-icon>
-        <ion-icon class="header__nav-icon" name="close-outline"></ion-icon>
+        <ion-icon
+          class="header__nav-icon"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          class="header__nav-icon"
+          name="close-outline"
+        ></ion-icon>
       </button>
     </header>
     <main>
@@ -68,10 +123,17 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#cta" class="btn btn--fill margin__right--small">
+            <a
+              href="#cta"
+              class="btn btn--fill margin__right--small"
+            >
               Start eating well
             </a>
-            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <a
+              href="#how"
+              class="btn btn--outline"
+              >Learn more &darr;</a
+            >
             <div class="hero__delivered-container">
               <div class="hero__delivered-images">
                 <img
@@ -112,8 +174,14 @@
           </div>
           <div class="hero__image-container">
             <picture>
-              <source srcset="./assets/hero.webp" type="image/webp" />
-              <source srcset="img/hero-min.png" type="image/png" />
+              <source
+                srcset="./assets/hero.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="img/hero-min.png"
+                type="image/png"
+              />
               <img
                 src="./assets/hero-min.png"
                 class="hero__image"
@@ -155,7 +223,10 @@
           </div>
         </div>
       </section>
-      <section class="how-works" id="how">
+      <section
+        class="how-works"
+        id="how"
+      >
         <div class="container">
           <span class="how-works__title title--sub">How it works</span>
           <h2 class="title--secondary">
@@ -222,7 +293,10 @@
           </div>
         </div>
       </section>
-      <section class="meals" id="meals">
+      <section
+        class="meals"
+        id="meals"
+      >
         <div class="container text-center">
           <span class="title--sub">Meals</span>
           <h2 class="title-secondary">
@@ -373,10 +447,17 @@
           </div>
         </div>
         <div class="container meals__btn-container">
-          <a href="#" class="link">See all recipes &rarr;</a>
+          <a
+            href="#"
+            class="link"
+            >See all recipes &rarr;</a
+          >
         </div>
       </section>
-      <section class="testimonials" id="testimonials">
+      <section
+        class="testimonials"
+        id="testimonials"
+      >
         <div class="testimonials__inner">
           <span class="title--sub">Testimonials</span>
           <h2 class="title--secondary">Once you try it, you can't go back</h2>
@@ -533,7 +614,10 @@
           </figure>
         </div>
       </section>
-      <section class="pricing" id="pricing">
+      <section
+        class="pricing"
+        id="pricing"
+      >
         <div class="container">
           <span class="title--sub">Pricing</span>
           <h2 class="title-secondary">Eating well without breaking the bank</h2>
@@ -570,12 +654,19 @@
                 <span>Delivery is free</span>
               </li>
               <li class="list__item">
-                <ion-icon class="list__icon" name="close-outline"></ion-icon>
+                <ion-icon
+                  class="list__icon"
+                  name="close-outline"
+                ></ion-icon>
                 <span>Get access to latest recipes</span>
               </li>
             </ul>
             <div class="pricing__plan-sing-up">
-              <a href="#" class="btn btn--fill">Start eating well</a>
+              <a
+                href="#"
+                class="btn btn--fill"
+                >Start eating well</a
+              >
             </div>
           </div>
           <div class="pricing__plan pricing__plan--complete">
@@ -617,7 +708,11 @@
               </li>
             </ul>
             <div class="pricing__plan-sing-up">
-              <a href="#" class="btn btn--fill">Start eating well</a>
+              <a
+                href="#"
+                class="btn btn--fill"
+                >Start eating well</a
+              >
             </div>
           </div>
         </div>
@@ -674,7 +769,10 @@
           </div>
         </div>
       </section>
-      <section class="cta" id="cta">
+      <section
+        class="cta"
+        id="cta"
+      >
         <div class="container">
           <div class="cta__inner">
             <div class="cta__text-container">
@@ -686,9 +784,16 @@
                 eating well today. You can cancel or pause anytime. And the
                 first meal is on us!
               </p>
-              <form class="cta__form" name="sign-up" netlify>
+              <form
+                class="cta__form"
+                name="sign-up"
+                netlify
+              >
                 <div>
-                  <label class="cta__form-label" for="full-name">
+                  <label
+                    class="cta__form-label"
+                    for="full-name"
+                  >
                     Full Name
                   </label>
                   <input
@@ -701,7 +806,10 @@
                   />
                 </div>
                 <div>
-                  <label class="cta__form-label" for="email">
+                  <label
+                    class="cta__form-label"
+                    for="email"
+                  >
                     Email address
                   </label>
                   <input
@@ -714,7 +822,10 @@
                   />
                 </div>
                 <div>
-                  <label class="cta__form-label" for="select-where">
+                  <label
+                    class="cta__form-label"
+                    for="select-where"
+                  >
                     Where did you hear from us?
                   </label>
                   <select
@@ -748,7 +859,10 @@
     <footer class="footer">
       <div class="container grid footer__inner">
         <div class="footer__nav footer__nav--logo">
-          <a href="#" class="footer__logo-link">
+          <a
+            href="#"
+            class="footer__logo-link"
+          >
             <img
               class="footer__logo"
               alt="Waregfood logo"
@@ -757,7 +871,10 @@
           </a>
           <ul class="footer__social-links">
             <li>
-              <a class="footer__link" href="#">
+              <a
+                class="footer__link"
+                href="#"
+              >
                 <ion-icon
                   class="footer__social-icon"
                   name="logo-instagram"
@@ -765,7 +882,10 @@
               </a>
             </li>
             <li>
-              <a class="footer__link" href="#">
+              <a
+                class="footer__link"
+                href="#"
+              >
                 <ion-icon
                   class="footer__social-icon"
                   name="logo-facebook"
@@ -773,7 +893,10 @@
               </a>
             </li>
             <li>
-              <a class="footer__link" href="#">
+              <a
+                class="footer__link"
+                href="#"
+              >
                 <ion-icon
                   class="footer__social-icon"
                   name="logo-twitter"
@@ -794,9 +917,16 @@
               623 Harrison St., 2nd Floor, San Francisco, CA 94107
             </p>
             <p>
-              <a class="footer__link" href="tel:415-201-6370">415-201-6370</a>
+              <a
+                class="footer__link"
+                href="tel:415-201-6370"
+                >415-201-6370</a
+              >
               <br />
-              <a class="footer__link" href="mailto:hello@Waregfood.com">
+              <a
+                class="footer__link"
+                href="mailto:hello@Waregfood.com"
+              >
                 hello@Waregfood.com
               </a>
             </p>
@@ -806,16 +936,32 @@
           <p class="footer__nav-heading">Account</p>
           <ul class="footer__nav-items">
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">Create account</a>
+              <a
+                class="footer__link"
+                href="#"
+                >Create account</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">Sign in</a>
+              <a
+                class="footer__link"
+                href="#"
+                >Sign in</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">iOS app</a>
+              <a
+                class="footer__link"
+                href="#"
+                >iOS app</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">Android app</a>
+              <a
+                class="footer__link"
+                href="#"
+                >Android app</a
+              >
             </li>
           </ul>
         </nav>
@@ -823,16 +969,32 @@
           <p class="footer__nav-heading">Company</p>
           <ul class="footer__nav-items">
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">About Waregfood</a>
+              <a
+                class="footer__link"
+                href="#"
+                >About Waregfood</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">For Business</a>
+              <a
+                class="footer__link"
+                href="#"
+                >For Business</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">Cooking partners</a>
+              <a
+                class="footer__link"
+                href="#"
+                >Cooking partners</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">Careers</a>
+              <a
+                class="footer__link"
+                href="#"
+                >Careers</a
+              >
             </li>
           </ul>
         </nav>
@@ -840,13 +1002,25 @@
           <p class="footer__nav-heading">Resources</p>
           <ul class="footer__nav-items">
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">Recipe directory </a>
+              <a
+                class="footer__link"
+                href="#"
+                >Recipe directory
+              </a>
             </li>
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">Help center</a>
+              <a
+                class="footer__link"
+                href="#"
+                >Help center</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a class="footer__link" href="#">Privacy & terms</a>
+              <a
+                class="footer__link"
+                href="#"
+                >Privacy & terms</a
+              >
             </li>
           </ul>
         </nav>
